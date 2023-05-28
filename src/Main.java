@@ -4,9 +4,9 @@ public class Main {
     }
 }
 
-//TODO Ex 1 - Crie um novo projeto no intelliJ para uma aplicação java.
-//TODO Ex 2 - Crie um Package (pasta / pacote) com nome entidades.
-//TODO Ex 3 - Crie classes com o nome Produto, ProdutoUsado e ProdutoImportado no pacote entidades.
+// Ex 1 - Crie um novo projeto no intelliJ para uma aplicação java.
+// Ex 2 - Crie um Package (pasta / pacote) com nome entidades.
+// Ex 3 - Crie classes com o nome Produto, ProdutoUsado e ProdutoImportado no pacote entidades.
 //TODO Ex 4 - Crie um novo arquivo (se não houver no projeto inicial) contendo um método main().
 //TODO Ex 5 - No método main() crie uma Lista para armazenar os produtos.
 //TODO Ex 6 - O Programa vai receber as informações referentes aos tipos de produto.
