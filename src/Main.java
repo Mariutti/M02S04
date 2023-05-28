@@ -1,14 +1,19 @@
+import entidades.Produto;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        List<Produto> produtos = new ArrayList<>();
     }
 }
 
 // Ex 1 - Crie um novo projeto no intelliJ para uma aplicação java.
 // Ex 2 - Crie um Package (pasta / pacote) com nome entidades.
 // Ex 3 - Crie classes com o nome Produto, ProdutoUsado e ProdutoImportado no pacote entidades.
-//TODO Ex 4 - Crie um novo arquivo (se não houver no projeto inicial) contendo um método main().
-//TODO Ex 5 - No método main() crie uma Lista para armazenar os produtos.
+// Ex 4 - Crie um novo arquivo (se não houver no projeto inicial) contendo um método main().
+// Ex 5 - No método main() crie uma Lista para armazenar os produtos.
 //TODO Ex 6 - O Programa vai receber as informações referentes aos tipos de produto.
 //TODO Ex 7 - Percorrer a lista de produtos e chamar o método pra mostrar as informações dos produtos.
 //TODO Ex 8 - o programa deve ter saída desse modo.
