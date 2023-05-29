@@ -20,7 +20,6 @@ public class ProdutoUsado extends Produto {
         }
     }
 
-
     public Date getDataFabricao() {
         return dataFabricao;
     }
@@ -35,6 +34,13 @@ public class ProdutoUsado extends Produto {
 
     public void setDataString(String dataString) {
         this.dataString = dataString;
+    }
+    @Override
+    public String toString() {
+        return "Tipo de produto: Importado\n" +
+                "Nome: " + this.getNome() + "\n" +
+                "Preco: R$ " + this.getPreco() + "\n" +
+                "Data de fabricação: " + dataString + "\n";
     }
 }
 

@@ -13,14 +13,15 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Entre com o número de produtos: ");
         int rep = entrada.nextInt();
-        for(int i = 0; i < rep; i ++){
-            System.out.println("Comum, usado ou importado(c/u/i)? " );
+        for (int i = 0; i < rep; i++) {
+            System.out.println("Cadastre o "+ (i+1)+"º produto");
+            System.out.println("Comum, usado ou importado(c/u/i)? ");
             char tipo = entrada.next().toLowerCase().charAt(0);
             System.out.println("Nome do produto: ");
             String nome = entrada.next();
             System.out.println("Preço do produto: R$ ");
             Double preco = entrada.nextDouble();
-            switch (tipo){
+            switch (tipo) {
                 case 'c':
                     produtos.add(new Produto(nome, preco));
                     break;
@@ -33,12 +34,17 @@ public class Main {
                     System.out.println("Digite a taxa de importação: ");
                     Double taxa = entrada.nextDouble();
                     produtos.add(new ProdutoImportado(nome, preco, taxa));
+                    break;
                 default:
                     System.out.println("tipo não cadastrado.");
             }
 
         }
-
+        System.out.println("");
+        for (Produto produto : produtos){
+            System.out.println((produtos.indexOf(produto)+ 1)+ "º Produto da lista: ");
+            System.out.println(produto.toString());
+        }
 
     }
 

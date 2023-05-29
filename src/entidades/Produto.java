@@ -25,5 +25,10 @@ public class Produto {
         this.preco = preco;
     }
 
-
+    @Override
+    public String toString() {
+        return "Tipo de produto: Comum\n" +
+                "Nome: " + nome + "\n" +
+                "Preco: R$ " + preco +"\n";
+    }
 }
