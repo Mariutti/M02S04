@@ -57,8 +57,8 @@ public class Main {
 // Ex 4 - Crie um novo arquivo (se não houver no projeto inicial) contendo um método main().
 // Ex 5 - No método main() crie uma Lista para armazenar os produtos.
 // Ex 6 - O Programa vai receber as informações referentes aos tipos de produto.
-//TODO Ex 7 - Percorrer a lista de produtos e chamar o método pra mostrar as informações dos produtos.
-//TODO Ex 8 - o programa deve ter saída desse modo.
+// Ex 7 - Percorrer a lista de produtos e chamar o método pra mostrar as informações dos produtos.
+// Ex 8 - o programa deve ter saída desse modo.
 //        Entre com o número de produtos: 3
 //        dados Produto#1:
 //        Comum, usado ou importado(c/u/i)? i
